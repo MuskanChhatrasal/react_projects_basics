@@ -7,7 +7,7 @@ const RestaurantCard = ({menuData}) => {
         <>
       <section className="main-card--cointainer">
        {menuData.map((foodItem)=>{
-         const {id,name,description,image} = foodItem
+         const {id,name,description,image} = foodItem //object destructring
         return (
             <>
             <div className='card-container' key={id}>

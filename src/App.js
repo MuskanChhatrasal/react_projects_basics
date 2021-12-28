@@ -1,10 +1,11 @@
 import React from 'react'
 import Restaurant from './components/basics/Restaurant'
+import Todo from './components/todoReact/todo'
 
 const App = () => {
   return (
     <div>
-      <Restaurant />
+      <Todo />
     </div>
   )
 }
